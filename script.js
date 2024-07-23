@@ -1,5 +1,5 @@
 //your JS code here. If required.
 box=document.getElementById("fname")
-name=box.getInnerText()
+name=box.innerText()
 name = name.toUpperCase()
-box.InnerText=name
+box.innerText=name
